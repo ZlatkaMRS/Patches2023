@@ -1,0 +1,34 @@
+"0","AGBM <- read_csv(""Data/AGBM.csv"")"
+"1","[38;5;255mNew names:
+[36m•[38;5;255m `SITE` -> `SITE...1`
+[36m•[38;5;255m `SITE` -> `SITE...2`[39m
+"
+"1","[1mRows: [22m[34m249[39m [1mColumns: [22m[34m23[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m  (4): SITE...1, SITE...2, SECTION, Species
+[32mdbl[39m (19): PATCH, PLOT, Quadrat, Height1, Height2, Height3, Height4, Height5, Height6, Height7, Height8, Height9, Height10, HeightAverage...
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","BGBM <- read_csv(""Data/BGBM.csv"")"
+"1","[1mRows: [22m[34m648[39m [1mColumns: [22m[34m14[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): Site, SiteCODE, Section, SampleType, Subsection, SubCode, Observations
+[32mdbl[39m (7): Patch, Plot, Bag(g), Wet+BAG(g), Dry+BAG(g), RootsDryWeight(g), g/m2
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","AG_Pct <- read_excel(""Data/AG_Pct.xlsx"")"
+"0","Soil <- read_excel(""Data/Soil.xlsx"")"
+"0","View(Soil)"
+"0","View(AG_Pct)"
+"0","View(BGBM)"
+"0","View(AGBM)"
