@@ -1,0 +1,71 @@
+---
+title: "Patches"
+author: "ZR"
+date: "8/18/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+`
+
+## Libraries
+```{r}
+library(readr)
+library(readxl)
+library(ggplot2)
+library(hrbrthemes)
+library(ggbump)
+library(tidyverse)
+```
+
+
+## Add Data
+
+```{r}
+AGBM <- read_csv("Data/AGBM.csv")
+BGBM <- read_csv("Data/BGBM.csv")
+AG_Pct <- read_excel("Data/AG_Pct.xlsx")
+Soil <- read_excel("Data/Soil.xlsx")
+View(Soil)
+View(AG_Pct)
+View(BGBM)
+View(AGBM)
+```
+
+## Organize data
+### AG biomass and cover
+### BGBM
+### Soil C
+```{r}
+
+```
+
+
+## Plots
+
+```{r}
+ggplot(AGBM, aes(x=`SECTION`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + 
+    geom_violin() +
+  facet_grid(SITE_ID ~ PATCH, scales = "fixed")+
+    theme_classic()
+
+ggplot(AGBM, aes(x=`Area_m2`, y=`Perimeter_m`, color=SITE_ID)) + 
+    geom_point() +
+    theme_classic()
+
+ggplot(AGBM, aes(x=`Area_m2`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + 
+    geom_point() +
+    theme_classic()
+
+ggplot(AGBM, aes(x=`ShapeRatio`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + 
+    geom_point() +
+    theme_classic()
+
+ggplot(AGBM, aes(x=`Perimeter_m`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + 
+    geom_point() +
+    theme_classic()
+```
+
