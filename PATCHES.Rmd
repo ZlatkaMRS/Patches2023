@@ -26,13 +26,15 @@ library(tidyverse)
 
 ```{r}
 AGBM <- read_csv("Data/AGBM.csv")
-BGBM <- read_csv("Data/BGBM.csv")
+BGBM <- read_excel("Data/BGBM.xlsx")
 AG_Pct <- read_excel("Data/AG_Pct.xlsx")
 Soil <- read_excel("Data/Soil.xlsx")
+BGBM_Aggregated <- read_excel("Data/BGBM.xlsx", sheet = "BGBM_Aggregated")
 View(Soil)
 View(AG_Pct)
 View(BGBM)
 View(AGBM)
+View(BGBM_Aggregated)
 ```
 
 ## Organize data
@@ -47,6 +49,7 @@ View(AGBM)
 ## Plots
 
 ```{r}
+# AGBM
 ggplot(AGBM, aes(x=`SECTION`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + 
     geom_violin() +
   facet_grid(SITE_ID ~ PATCH, scales = "fixed")+
@@ -67,5 +70,32 @@ ggplot(AGBM, aes(x=`ShapeRatio`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) +
 ggplot(AGBM, aes(x=`Perimeter_m`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + 
     geom_point() +
     theme_classic()
+```
+
+```{r}
+#BGBM
+
+ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+    geom_point() +
+  geom_smooth()+
+    theme_classic()
+
+ggplot(BGBM_Aggregated, aes(x=`Area_m2`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+    geom_point() +
+  geom_smooth()+
+    theme_classic()
+
+ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+    geom_point() +
+  geom_smooth()+
+  facet_grid(Site ~ Patch, scales = "fixed")+
+    theme_classic()
+
+ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+    geom_point() +
+  geom_smooth()+
+  facet_grid(Site ~ Patch, scales = "free")+
+    theme_classic()
+
 ```
 
