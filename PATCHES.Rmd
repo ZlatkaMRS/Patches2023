@@ -75,9 +75,10 @@ ggplot(AGBM, aes(x=`Perimeter_m`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) +
 ```{r}
 #BGBM
 
-ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=Site)) + 
     geom_point() +
   geom_smooth()+
+  facet_grid(SampleType ~ Patch, scales = "free")+
     theme_classic()
 
 ggplot(BGBM_Aggregated, aes(x=`Area_m2`, y=`Biomass/core_g/m2`, color=SampleType)) + 
@@ -95,6 +96,42 @@ ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleT
     geom_point() +
   geom_smooth()+
   facet_grid(Site ~ Patch, scales = "free")+
+    theme_classic()
+
+```
+
+```{r}
+## Boxplot area/shape ?
+ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+    geom_boxplot()+
+  facet_grid(Site ~ Patch, scales = "free")+
+    theme_classic()
+ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + 
+    geom_boxplot()+
+  facet_grid(Site ~ Section, scales = "free")+
+    theme_classic()
+##
+```
+```{r}
+## Live roots only graphs
+LiveBGBM <- filter(BGBM_Aggregated, SampleType == "AliveRoots")
+
+ggplot(LiveBGBM, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=Site)) + 
+    geom_point() +
+  geom_smooth()+
+  facet_grid(Site ~ Patch, scales = "free")+
+    theme_classic()
+
+ggplot(LiveBGBM, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=Site)) + 
+    geom_point() +
+  geom_smooth()+
+#  facet_grid(Site ~ Patch, scales = "free")+
+    theme_classic()
+
+ggplot(LiveBGBM, aes(x=`Area_m2`, y=`Biomass/core_g/m2`, color=Site)) + 
+    geom_point() +
+  geom_smooth()+
+#  facet_grid(Site ~ Patch, scales = "free")+
     theme_classic()
 
 ```
