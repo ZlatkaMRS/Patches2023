@@ -1,5 +1,0 @@
-"0","## Boxplot area/shape ?"
-"0","ggplot(BGBM_Aggregated, aes(x=`ShapeRatio`, y=`Biomass/core_g/m2`, color=SampleType)) + "
-"0","    geom_boxplot()+"
-"0","  facet_grid(Site ~ Patch, scales = ""free"")+"
-"0","    theme_classic()"

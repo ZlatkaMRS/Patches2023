@@ -1,0 +1,69 @@
+"0",""
+"0","ggplot(BGBM_Aggregated, aes(x=`IsoperimetricInequality(Q)`, y=`Biomass/core_g/m2`, color=Area_m2)) + "
+"0","    geom_boxplot()+"
+"0","  facet_grid(SITE_ID ~ SampleType, scales = ""free"")+"
+"0","    theme_classic()"
+"2","Warning:"
+"2"," [38;5;255mContinuous [32mx[38;5;255m aesthetic
+[36mℹ[38;5;255m did you forget `aes(group = ...)`?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
+"2","Warning:"
+"2"," [38;5;255mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;255m.
+[36mℹ[38;5;255m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;255m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a factor?[39m
+"
