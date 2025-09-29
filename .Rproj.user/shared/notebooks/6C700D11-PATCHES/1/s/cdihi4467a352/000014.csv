@@ -1,0 +1,6 @@
+"0","ggplot(TotalCarbon, aes(x=`IsoperimetricInequality(Q)`, y=`MgC/Ha`, color=CarbonPool)) + "
+"0","    geom_point() +"
+"0","  geom_smooth(method = ""glm"", se = FALSE)+"
+"0","  theme_classic()"
+"1","[38;5;255m`geom_smooth()` using formula = 'y ~ x'[39m
+"
