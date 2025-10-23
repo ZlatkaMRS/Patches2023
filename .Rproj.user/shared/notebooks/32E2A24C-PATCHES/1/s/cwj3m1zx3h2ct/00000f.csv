@@ -1,0 +1,6 @@
+"0","# box plots"
+"0","ggplot(TotalCarbon, aes(x=SECTION, y=`MgC/Ha`, color=SECTION)) + "
+"0","  geom_boxplot()+"
+"0","    geom_point() +"
+"0","  facet_grid(CarbonPool~SITE_ID, scales = ""free"")+"
+"0","  theme_classic()"

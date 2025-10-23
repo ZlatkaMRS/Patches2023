@@ -1,0 +1,29 @@
+"0","AGBM <- read_csv(""Data/AGBM.csv"")"
+"1","[1mRows: [22m[34m249[39m [1mColumns: [22m[34m34[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m  (5): SITE, SITE_ID, SECTION, Species, Observations
+[32mdbl[39m (29): PATCH, PLOT, Quadrat, Area_m2, Perimeter_m, P1A, P2A, IsoperimetricInequality(Q), H...
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","BGBM <- read_excel(""Data/BGBM.xlsx"")"
+"0","AG_Pct <- read_excel(""Data/AG_Pct.xlsx"")"
+"0","Soil <- read_excel(""Data/Soil.xlsx"")"
+"0","BGBM_Aggregated <- read_excel(""Data/BGBM.xlsx"", sheet = ""BGBM_Aggregated"")"
+"0","TotalCarbon <- read_csv(""Data/TotalCarbon.csv"")"
+"1","[1mRows: [22m[34m216[39m [1mColumns: [22m[34m14[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m  (3): SITE_ID, SECTION, CarbonPool
+[32mdbl[39m (11): PATCH, PLOT, Area_m2, Perimeter_m, P1A, P2A, IsoperimetricInequality(Q), MgC/Ha, AG...
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","AggregatedCarbon <- read.csv(""Data/AggregatedCarbon.csv"")"

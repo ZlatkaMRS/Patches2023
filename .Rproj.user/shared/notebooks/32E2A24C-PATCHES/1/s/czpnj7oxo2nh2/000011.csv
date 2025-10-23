@@ -1,0 +1,12 @@
+"0","ggplot(LiveBGBM, aes(x=`IsoperimetricInequality(Q)`, y=`Biomass/core_g/m2`, color=Area_m2)) + "
+"0","    geom_point() +"
+"0","  geom_smooth()+"
+"0","    theme_classic()"
+"1","[38;5;252m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"
+"2","Warning:"
+"2"," [38;5;252mThe following aesthetics were dropped during statistical transformation: [32mcolour[38;5;252m.
+[36mℹ[38;5;252m This can happen when ggplot fails to infer the correct grouping structure in the data.
+[36mℹ[38;5;252m Did you forget to specify a `group` aesthetic or to convert a numerical variable into a
+  factor?[39m
+"

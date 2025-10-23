@@ -1,0 +1,4 @@
+"0","ggplot(AggregatedCarbon, aes(x=`SITE_ID`, y=`Aggregated.MgC.Ha`, fill=SECTION)) + "
+"0","    geom_boxplot()+"
+"0","    theme_classic()+"
+"0","  labs(x = ""Sites"", y = ""Estimated Total Carbon (Mg C / Ha)"", fill = ""Section"") +   scale_fill_viridis_d()"

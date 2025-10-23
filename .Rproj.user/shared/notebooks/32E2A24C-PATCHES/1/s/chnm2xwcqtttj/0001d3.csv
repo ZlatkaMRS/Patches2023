@@ -1,0 +1,5 @@
+"0","ggsave('figures/fig02.png')"
+"1","[38;5;252mSaving 7.29 x 4.5 in image[39m
+"
+"1","[38;5;252m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"

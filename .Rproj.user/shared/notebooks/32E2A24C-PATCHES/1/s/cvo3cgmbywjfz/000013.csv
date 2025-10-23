@@ -1,0 +1,568 @@
+"0","# Plot for Area_m2"
+"0","ggplot(BGBM_Aggregated, aes(x=`Area_m2`, y=`Biomass/core_g/m2`, color=Section)) +"
+"0","  geom_point() +"
+"0","  geom_smooth(se = FALSE, method = ""loess"", span = 0.3) + # Use loess and adjust span for smoothness"
+"0","  facet_grid(~SITE_ID, scales = ""free"") +"
+"0","  theme_classic()"
+"1","[38;5;252m`geom_smooth()` using formula = 'y ~ x'[39m
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  1521.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  206.21
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1521.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 14.36
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  4422
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  206.21
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 206.21
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 1.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  1521.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  206.21
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1521.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 14.36
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  4422
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  206.21
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 206.21
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 2.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  2594.5
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  3598.9
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 2594.5
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 59.991
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  14713
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  3598.9
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 3598.9
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 1.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  2594.5
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  3598.9
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 2594.5
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 59.991
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  14713
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  3598.9
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 3598.9
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 2.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  683.06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  5492.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 683.06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 74.11
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  15653
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  5492.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 5492.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 1.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  683.06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  5492.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 683.06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 74.11
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  15653
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  5492.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 5492.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 2.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  1123.8
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  6309.6
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1123.8
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 79.433
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  17169
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  6309.6
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 6309.6
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 1.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  1123.8
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  6309.6
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1123.8
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 79.433
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," at  17169
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," radius  6309.6
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," all data on boundary of neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 6309.6
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," zero-width neighborhood. make span bigger
+"
+"2","Warning:"
+"2"," [38;5;252mFailed to fit group 2.[39m
+Caused by error in `predLoess()`:
+[33m![39m NA/NaN/Inf in foreign function call (arg 5)
+"

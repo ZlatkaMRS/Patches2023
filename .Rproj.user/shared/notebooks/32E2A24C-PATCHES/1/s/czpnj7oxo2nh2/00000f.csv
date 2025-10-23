@@ -1,0 +1,7 @@
+"0","ggplot(LiveBGBM, aes(x=`IsoperimetricInequality(Q)`, y=`Biomass/core_g/m2`, color=Area_m2)) + "
+"0","    geom_point() +"
+"0","  geom_smooth()+"
+"0","  facet_grid(SITE_ID ~ Patch, scales = ""free"")+"
+"0","    theme_classic()"
+"1","[38;5;252m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"

@@ -1,0 +1,327 @@
+"0","ggplot(BGBM_Aggregated, aes(x=`Area_m2`, y=`Biomass/core_g/m2`, color=Section)) + "
+"0","    geom_point() +"
+"0","  geom_smooth()+"
+"0","  facet_grid(~SITE_ID, scales = ""free"")+"
+"0","  theme_classic()"
+"1","[38;5;252m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1521.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 2886.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  4.7469e-17
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 8.331e+06
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 1521.3
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 2886.3
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  4.7469e-17
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 8.331e+06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1521.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 2886.3
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  4.7469e-17
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 8.331e+06
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 1521.3
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 2886.3
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  4.7469e-17
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 8.331e+06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 2594.5
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 12058
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  7.4108e-17
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 1.454e+08
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 2594.5
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 12058
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  7.4108e-17
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 1.454e+08
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 2594.5
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 12058
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  7.4108e-17
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 1.454e+08
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 2594.5
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 12058
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  7.4108e-17
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 1.454e+08
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 683.06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 14896
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1.4464e-16
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.2189e+08
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 683.06
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 14896
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  1.4464e-16
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.2189e+08
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 683.06
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 14896
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1.4464e-16
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.2189e+08
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 683.06
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 14896
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  1.4464e-16
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.2189e+08
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1123.8
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 15966
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1.2269e-16
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.5492e+08
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 1123.8
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 15966
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  1.2269e-16
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.5492e+08
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," pseudoinverse used at 1123.8
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," neighborhood radius 15966
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," reciprocal condition number  1.2269e-16
+"
+"2","Warning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.5492e+08
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," pseudoinverse used at 1123.8
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," neighborhood radius 15966
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," reciprocal condition number  1.2269e-16
+"
+"2","Warning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)),  :"
+"2","
+ "
+"2"," There are other near singularities as well. 2.5492e+08
+"

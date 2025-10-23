@@ -1,0 +1,5 @@
+"0","# AGBM"
+"0","ggplot(AGBM, aes(x=`SECTION`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + "
+"0","    geom_violin() +"
+"0","  facet_grid(SITE_ID ~ PATCH, scales = ""fixed"")+"
+"0","    theme_classic()"

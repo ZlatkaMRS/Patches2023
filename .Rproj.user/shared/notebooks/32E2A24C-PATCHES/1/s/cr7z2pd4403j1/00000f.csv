@@ -1,0 +1,7 @@
+"0","# Total carbon together everything"
+"0","ggplot(TotalCarbon, aes(x=`Area_m2`, y=`MgC/Ha`, color=CarbonPool)) + "
+"0","    geom_point() +"
+"0","  geom_smooth()+"
+"0","    theme_classic()"
+"1","[38;5;252m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"

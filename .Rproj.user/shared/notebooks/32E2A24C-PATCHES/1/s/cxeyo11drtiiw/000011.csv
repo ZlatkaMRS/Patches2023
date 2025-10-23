@@ -1,0 +1,7 @@
+"0","ggplot(TotalCarbon, aes(x=`IsoperimetricInequality(Q)`, y=`MgC/Ha`, color=SECTION)) + "
+"0","    geom_point() +"
+"0","  geom_smooth(method = ""gam"", se = FALSE)+"
+"0","  facet_wrap(~CarbonPool, scales = ""free"")+"
+"0","  theme_classic()"
+"1","[38;5;252m`geom_smooth()` using formula = 'y ~ s(x, bs = ""cs"")'[39m
+"

@@ -1,0 +1,10 @@
+"0","## Live roots only graphs"
+"0","LiveBGBM <- filter(BGBM_Aggregated, SampleType == ""AliveRoots"")"
+"0",""
+"0","ggplot(LiveBGBM, aes(x=`IsoperimetricInequality(Q)`, y=`Biomass/core_g/m2`, color=SITE_ID)) + "
+"0","    geom_point() +"
+"0","  geom_smooth()+"
+"0","  facet_grid(SITE_ID ~ Patch, scales = ""free"")+"
+"0","    theme_classic()"
+"1","[38;5;252m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"
