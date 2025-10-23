@@ -413,85 +413,16 @@ ggplot(TotalCarbon, aes(x=SECTION, y=`MgC/Ha`, color=CarbonPool)) +
   facet_grid(CarbonPool~SITE_ID, scales = "free")+
   theme_classic()
 
-ggplot(TotalCarbon, aes(x=SECTION, y=`MgC/Ha`, color=SITE_ID)) + 
+ggplot(TotalCarbon, aes(x=SECTION, y=`MgC/Ha`, color=CarbonPool)) + 
   geom_boxplot()+
     geom_point() +
-  facet_grid(CarbonPool~SITE_ID, scales = "free")+
+  facet_grid(CarbonPool~SITE_ID, scales = "fixed")+
   theme_classic()
 
-```
-
-
-
-```{r}
-
-## ANOVA Carbon per site and section
-
-summary(aov(`AG(MgC/Ha)`~SITE_ID *SECTION, data= TotalCarbon))
-summary(aov(`BG(MgC/Ha)`~SITE_ID *SECTION, data= TotalCarbon))
-summary(aov(`Soil(MgC/Ha)`~SITE_ID *SECTION, data= TotalCarbon))
-summary(aov(`Soil(MgC/Ha)`~SITE_ID*PATCH*PLOT*SECTION, data= TotalCarbon))
-summary(aov(`Soil(MgC/Ha)`~SITE_ID*PATCH*PLOT*SECTION*`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-shapiro.test(residuals((aov(`Soil(MgC/Ha)`~SITE_ID*PATCH*PLOT*SECTION, data= TotalCarbon))))
-shapiro.test(residuals((aov(`AG(MgC/Ha)`~SITE_ID*SECTION, data= TotalCarbon))))
-
-      #Anova per area and shape
-
-summary(aov(`AG(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-summary(aov(`BG(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-summary(aov(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-summary(aov(`AG(MgC/Ha)`~ SITE_ID*`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-summary(aov(`BG(MgC/Ha)`~ SITE_ID*`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-summary(aov(`Soil(MgC/Ha)`~ SITE_ID*`IsoperimetricInequality(Q)`*Area_m2, data= TotalCarbon))
-
-# Model lm
-lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`, data = TotalCarbon)
-aov(lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`, data = TotalCarbon))
-summary(aov(lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`, data = TotalCarbon)))
-
-lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data = TotalCarbon)
-aov(lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data = TotalCarbon))
-summary(aov(lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data = TotalCarbon)))
-
-anova(lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`, data = TotalCarbon), lm(`Soil(MgC/Ha)`~`IsoperimetricInequality(Q)`*Area_m2, data = TotalCarbon))
-
-## Reorganize panels 
-
-ggplot(TotalCarbon, aes(x = `IsoperimetricInequality(Q)`, y = `MgC/Ha`, color = CarbonPool)) +
-  geom_point() +
-  geom_smooth() +
+ggplot(TotalCarbon, aes(x=SITE_ID, y=`MgC/Ha`, color=SITE_ID)) + 
+  geom_boxplot()+
+    geom_point() +
   theme_classic()
-
-ggplot(TotalCarbon, aes(x = `Area_m2`, y = `MgC/Ha`, color = CarbonPool)) +
-  geom_point() +
-  geom_smooth() +
-  theme_classic()
-
-ggplot(TotalCarbon, aes(x = `IsoperimetricInequality(Q)`, y = `MgC/Ha`, color = CarbonPool)) +
-  geom_point() +
-  geom_smooth() +
-  facet_wrap(~SITE_ID, ncol = 2) +
-  theme_classic()
-
-ggplot(TotalCarbon, aes(x = `Area_m2`, y = `MgC/Ha`, color = CarbonPool)) +
-  geom_point() +
-  geom_smooth() +
-  facet_wrap(~SITE_ID, ncol = 2) +
-  theme_classic()
-
-ggplot(TotalCarbon, aes(x = `IsoperimetricInequality(Q)`, y = `Soil(MgC/Ha)`)) +
-  geom_point() +
-  geom_smooth() +
-  facet_wrap(~SITE_ID, ncol = 2) +
-  theme_classic()
-
-ggplot(TotalCarbon, aes(x = `Area_m2`, y = `Soil(MgC/Ha)`)) +
-  geom_point() +
-  geom_smooth() +
-  facet_wrap(~SITE_ID, ncol = 2) +
-  theme_classic()
-## Graphs with average (median or mean)
-## One graph with ecotones
 
 ```
 

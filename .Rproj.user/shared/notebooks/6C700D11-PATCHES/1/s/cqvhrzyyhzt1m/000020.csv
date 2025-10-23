@@ -1,7 +1,0 @@
-"0","ggplot(BGBM_Aggregated, aes(x=`IsoperimetricInequality(Q)`, y=`Biomass/core_g/m2`, color=SampleType)) + "
-"0","    geom_point() +"
-"0","  geom_smooth()+"
-"0","  facet_grid(SITE_ID ~ Patch, scales = ""fixed"")+"
-"0","    theme_classic()"
-"1","[38;5;255m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
-"

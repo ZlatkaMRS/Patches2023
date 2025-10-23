@@ -1,0 +1,31 @@
+---
+title: "Patches2023-1"
+author: "ZR"
+date: "8/18/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Libraries
+```{r}
+library(readr)
+library(readxl)
+```
+
+
+## Add Data
+
+```{r}
+AGBM <- read_csv("Data/AGBM.csv")
+BGBM <- read_csv("Data/BGBM.csv")
+AG_Pct <- read_excel("Data/AG_Pct.xlsx")
+Soil <- read_excel("Data/Soil.xlsx")
+View(Soil)
+View(AG_Pct)
+View(BGBM)
+View(AGBM)
+```
+

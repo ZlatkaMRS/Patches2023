@@ -1,4 +1,0 @@
-"0",""
-"0","ggplot(AGBM, aes(x=`IsoperimetricInequality(Q)`, y=`CarbonAGBM(kgC/m2)`, color=SITE_ID)) + "
-"0","    geom_point() +"
-"0","    theme_classic()"
